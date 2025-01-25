@@ -5,11 +5,11 @@ let amigos = [];
 //Declarando la funcion agregar amigo
 function agregarAmigo() {
     //Agrega los nombres de los amigos y los almacena en el array amigos
-    let entradaNombreDeAmigo = document.getElementById("amigo").value;
+    let entradaNombreDeAmigo = document.getElementById("amigo");
     if (entradaNombreDeAmigo == "") {
         alert("Por favor, inserta un nombre.");
     } else {
-        amigos.push(entradaNombreDeAmigo);
+        amigos.push(entradaNombreDeAmigo.value);
         amigos.sort();
         console.log(amigos);
         limpiarCajas();
