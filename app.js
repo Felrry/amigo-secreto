@@ -32,7 +32,7 @@ function actualizarListaDeAmigos() {
     //limpiando lista de amigos anterior
     listaAmigos.innerHTML = "";
 
-    for (let i = 0; i]'/.os.length; i++) {
+    for (let i = 0; i < amigos.length; i++) {
         let li = document.createElement("li"); //creando la etiqueta lista
         li.appendChild(document.createTextNode(amigos[i])); //Colocando el nombre en la lista
         listaAmigos.appendChild(li); //ubicando la etiqueta dentro de la etiqueta ul
