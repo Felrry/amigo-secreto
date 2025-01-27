@@ -12,4 +12,9 @@
 - Introduce un nombre, presiona el boton añadir.
 - Cuando hayas introducido todos los nombres de tus amigos presional el botón sortear amigo.
 - El programa seleccionara uno de los amigos introducidos.
--
+
+<h2>Tecnologias utilizadas</h2>
+
+-HTML
+-CSS
+JavaScript
